@@ -1,0 +1,14 @@
+CARPETA DE DEPLOY - GUIA IA WEB DOCENTE
+
+Sube al hosting todo el contenido de esta carpeta:
+
+- index.html
+- assets/
+- .htaccess
+- LEEME-DEPLOY.txt opcional, no es necesario subirlo
+
+Importante:
+1. No subas la carpeta completa dentro de otra carpeta si quieres que la web abra en el dominio principal.
+2. Sube el contenido de esta carpeta a public_html, www, htdocs o la carpeta publica equivalente de tu hosting.
+3. Si tu hosting no usa Apache, el archivo .htaccess puede no tener efecto, pero no rompe la web.
+4. Si vas a publicar la web dentro de una subcarpeta, revisa la configuracion base de Vite antes de compilar.
